@@ -7,7 +7,7 @@
 <h1>Movies</h1>
 <section id="movies">
     <div class="row">
-        @forelse($moviesa as $movie)
+        @forelse($movies as $movie)
         <div class="col-2">
             <div class="card">
                 <div class="card-body">
